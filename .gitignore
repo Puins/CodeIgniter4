@@ -71,6 +71,7 @@ user_guide_src/build/*
 user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
+guide_src/*
 
 #-------------------------
 # Test Files
@@ -125,3 +126,10 @@ nb-configuration.xml
 /results/
 /phpunit*.xml
 /.phpunit.*.cache
+
+# Custom Public
+public/*
+!public/index.php
+!public/favicon.ico
+!public/.htaccess
+!public/robots.txt
